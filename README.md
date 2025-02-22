@@ -45,7 +45,10 @@ The Food Delivery System is a web-based platform that allows customers to browse
 - Role-based & Permissions: Admin, Restaurant Owner, Customer, Delivery Agent.
 ```
 
-**Figure: Sequence Diagram for User Registration & Authentication**
+**Sequence Diagram for User Registration & Authentication:**
+
+---
+
 ![Sequence Diagram for User Registration & Authentication](./images/SD-User%20Management.png)
 
 ### 2. Restaurant Management
