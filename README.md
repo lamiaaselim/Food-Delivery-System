@@ -47,9 +47,15 @@ The Food Delivery System is a web-based platform that allows customers to browse
 
 **Sequence Diagram for User Registration & Authentication:**
 
+![Sequence Diagram for User Registration & Authentication](./images/SD-User%20Management.png)
+
 ---
 
-![Sequence Diagram for User Registration & Authentication](./images/SD-User%20Management.png)
+**Flowchart for User Registration & Authentication:**
+
+***;
+
+![Flowchart for User Registration & Authentication](./images/Flowchart-User%20Management.png)
 
 ### 2. Restaurant Management
 
