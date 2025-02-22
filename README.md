@@ -32,11 +32,20 @@ The Food Delivery System is a web-based platform that allows customers to browse
 **Description:** Handles user registration, authentication, and role-based access control.
 
 ```plaintext
-- User Registration & Login: Allows customers, restaurant owners, and delivery agents to sign up and log in.
-- Role Management: Users are assigned roles (customer, restaurant_owner, delivery_agent, admin).
-- Profile Management: Users can update their personal details and addresses.
-- Password Recovery: Allows users to reset their passwords securely.
+- Database Design: Structured schema for storing user information.
+- API Endpoints:
+  - Sign up
+  - Login
+  - Forgot Password
+  - Email verification or OTP verification
+  - User/Customer Profile Management
+  - Logout
+  - Social Media Authentication (Google, Facebook, etc.)
+  - Enable or Disable Account
+- Role-based & Permissions: Admin, Restaurant Owner, Customer, Delivery Agent.
 ```
+
+![Sequence Diagram for User Registration & Authentication](./images/SD-User%20Management.png)
 
 ### 2. Restaurant Management
 
