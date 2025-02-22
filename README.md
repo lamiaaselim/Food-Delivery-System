@@ -4,6 +4,27 @@
 
 The Food Delivery System is a web-based platform that allows customers to browse restaurants, order food, make payments, and track deliveries. It also provides functionalities for restaurant owners to manage their menus and orders, while delivery agents can track and complete deliveries.
 
+## Table of Contents
+
+- [Food Delivery System](#food-delivery-system)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Key Features \& Functions](#key-features--functions)
+    - [1. User Management](#1-user-management)
+    - [2. Restaurant Management](#2-restaurant-management)
+    - [3. Menu \& Food Management](#3-menu--food-management)
+    - [4. Cart Management](#4-cart-management)
+    - [5. Order Processing](#5-order-processing)
+    - [6. Payment \& Transaction Management](#6-payment--transaction-management)
+    - [7. Delivery Management](#7-delivery-management)
+    - [8. Reviews \& Ratings](#8-reviews--ratings)
+    - [9. Coupons \& Discounts](#9-coupons--discounts)
+    - [10. Admin Panel](#10-admin-panel)
+  - [Database Structure](#database-structure)
+    - [Key Tables](#key-tables)
+  - [Future Enhancements](#future-enhancements)
+  - [Conclusion](#conclusion)
+
 ## Key Features & Functions
 
 ### 1. User Management
