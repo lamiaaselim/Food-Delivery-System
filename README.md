@@ -9,17 +9,20 @@ The Food Delivery System is a web-based platform that allows customers to browse
 - [Food Delivery System](#food-delivery-system)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
-  - [Key Features \& Functions](#key-features--functions)
+  - [Key Features](#key-features)
     - [1. User Management](#1-user-management)
-      - [1. Sign Up](#1-sign-up)
-      - [2. Login](#2-login)
-      - [3. Forget Password](#3-forget-password)
-      - [4. Email/OTP Verification](#4-emailotp-verification)
-      - [5. User/Customer Profile](#5-usercustomer-profile)
-      - [6. Logout](#6-logout)
-      - [7. Social Media Authentication](#7-social-media-authentication)
-      - [8. Enable/Disable Account](#8-enabledisable-account)
-      - [9. Role-based \& Permissions](#9-role-based--permissions)
+      - [Pseudocode for User Registration \& Authentication](#pseudocode-for-user-registration--authentication)
+        - [1. Sign Up](#1-sign-up)
+        - [2. Login](#2-login)
+        - [3. Forget Password](#3-forget-password)
+        - [4. Email/OTP Verification](#4-emailotp-verification)
+        - [5. User/Customer Profile](#5-usercustomer-profile)
+        - [6. Logout](#6-logout)
+        - [7. Social Media Authentication](#7-social-media-authentication)
+        - [8. Enable/Disable Account](#8-enabledisable-account)
+        - [9. Role-based \& Permissions](#9-role-based--permissions)
+      - [Sequence Diagram for User Registration \& Authentication](#sequence-diagram-for-user-registration--authentication)
+      - [Flowchart for User Registration \& Authentication](#flowchart-for-user-registration--authentication)
     - [2. Restaurant Management](#2-restaurant-management)
     - [3. Menu \& Food Management](#3-menu--food-management)
     - [4. Cart Management](#4-cart-management)
@@ -34,7 +37,7 @@ The Food Delivery System is a web-based platform that allows customers to browse
   - [Future Enhancements](#future-enhancements)
   - [Conclusion](#conclusion)
 
-## Key Features & Functions
+## Key Features
 
 ### 1. User Management
 
@@ -54,21 +57,9 @@ The Food Delivery System is a web-based platform that allows customers to browse
 - Role-based & Permissions: Admin, Restaurant Owner, Customer, Delivery Agent.
 ```
 
-**Sequence Diagram for User Registration & Authentication:**
+#### Pseudocode for User Registration & Authentication
 
-![Sequence Diagram for User Registration & Authentication](./images/SD-User%20Management.png)
-
----
-
-**Flowchart for User Registration & Authentication:**
-
-![Flowchart for User Registration & Authentication](./images/Flowchart-User%20Management.png)
-
----
-
-**Pseudocode for User Registration & Authentication:**
-
-#### 1. Sign Up
+##### 1. Sign Up
 
 ```plaintext
 FUNCTION SignUp(username, email, password)
@@ -83,7 +74,7 @@ FUNCTION SignUp(username, email, password)
 END FUNCTION
 ```
 
-#### 2. Login
+##### 2. Login
 
 ```plaintext
 FUNCTION Login(email, password)
@@ -96,7 +87,7 @@ FUNCTION Login(email, password)
 END FUNCTION
 ```
 
-#### 3. Forget Password
+##### 3. Forget Password
 
 ```plaintext
 FUNCTION ForgetPassword(email)
@@ -110,7 +101,7 @@ FUNCTION ForgetPassword(email)
 END FUNCTION
 ```
 
-#### 4. Email/OTP Verification
+##### 4. Email/OTP Verification
 
 ```plaintext
 FUNCTION VerifyEmail(email, verificationCode)
@@ -123,7 +114,7 @@ FUNCTION VerifyEmail(email, verificationCode)
 END FUNCTION
 ```
 
-#### 5. User/Customer Profile
+##### 5. User/Customer Profile
 
 ```plaintext
 FUNCTION GetProfile(userId)
@@ -132,7 +123,7 @@ FUNCTION GetProfile(userId)
 END FUNCTION
 ```
 
-#### 6. Logout
+##### 6. Logout
 
 ```plaintext
 FUNCTION Logout(token)
@@ -141,7 +132,7 @@ FUNCTION Logout(token)
 END FUNCTION
 ```
 
-#### 7. Social Media Authentication
+##### 7. Social Media Authentication
 
 ```plaintext
 FUNCTION SocialMediaLogin(socialMediaToken)
@@ -155,7 +146,7 @@ FUNCTION SocialMediaLogin(socialMediaToken)
 END FUNCTION
 ```
 
-#### 8. Enable/Disable Account
+##### 8. Enable/Disable Account
 
 ```plaintext
 FUNCTION ToggleAccountStatus(userId, status)
@@ -164,7 +155,7 @@ FUNCTION ToggleAccountStatus(userId, status)
 END FUNCTION
 ```
 
-#### 9. Role-based & Permissions
+##### 9. Role-based & Permissions
 
 ```plaintext
 FUNCTION CheckAccess(userId, resource)
@@ -176,6 +167,18 @@ FUNCTION CheckAccess(userId, resource)
     END IF
 END FUNCTION
 ```
+
+#### Sequence Diagram for User Registration & Authentication
+
+![Sequence Diagram for User Registration & Authentication](./images/SD-User%20Management.png)
+
+---
+
+#### Flowchart for User Registration & Authentication
+
+![Flowchart for User Registration & Authentication](./images/Flowchart-User%20Management.png)
+
+---
 
 ### 2. Restaurant Management
 
